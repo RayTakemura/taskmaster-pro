@@ -196,6 +196,10 @@ $("#trash").droppable({
   }
 });
 
+$("#modalDueDate").datepicker({
+  minDate: 1
+});
+
 // modal was triggered
 $("#task-form-modal").on("show.bs.modal", function() {
   // clear values
@@ -243,3 +247,4 @@ $("#remove-tasks").on("click", function() {
 loadTasks();
 
 
+// TEST TEST TEST
